@@ -1,6 +1,8 @@
 package Lab1;
 import Lab1.Iterfaces.IItem;
 import Lab1.Iterfaces.IItemArray;
+import Lab1.Models.Item;
+import Lab1.Models.ItemArray;
 
 import java.util.Scanner;
 
