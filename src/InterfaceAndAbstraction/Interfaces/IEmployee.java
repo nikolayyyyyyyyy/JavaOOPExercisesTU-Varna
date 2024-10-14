@@ -15,4 +15,7 @@ public interface IEmployee {
 
     float getSalary();
     void setSalary(float salary);
+
+    int getCountWorkers();
+    String getFirmName();
 }

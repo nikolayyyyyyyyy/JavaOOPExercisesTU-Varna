@@ -84,4 +84,14 @@ public abstract class Employee implements IEmployee {
     public void setSalary(float salary) {
         this.salary = salary;
     }
+
+    @Override
+    public int getCountWorkers(){
+        return allWorkersCount;
+    }
+
+    @Override
+    public String getFirmName() {
+        return workPlace;
+    }
 }

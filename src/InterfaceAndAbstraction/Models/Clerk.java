@@ -17,6 +17,7 @@ public class Clerk extends Employee implements IClerk {
                  float bonus) {
         super(name, family, egn, town, salary);
         setSector(sector);
+       setBonus(bonus);
     }
 
     public String getSector(){
@@ -44,7 +45,7 @@ public class Clerk extends Employee implements IClerk {
 
     @Override
     public float getSalary() {
-        return super.getSalary() * this.bonus;
+        return super.getSalary() + (super.getSalary() * (this.bonus / 100));
     }
 
     @Override
